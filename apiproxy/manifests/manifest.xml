@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="EV-extractToken" version="SHA-512:ffd13f48a392a8e9df8f92af99524c5a9792535519b00231c34105be6ea3e7a81843fbbd585d13aae4c80dd771a2f57ff37dbd5bae52408224f9a2ff0a21b37b"/>
+        <VersionInfo resourceName="KVM-extractCreds" version="SHA-512:a8e5fd5cf5888b43e960544d4afa1583d85b48744d2c48ab6d5f030ec34b232d31f1af56ed972319a1afec85a69e556fe66a7bab4e50c7e87c422e6ad97735b5"/>
+        <VersionInfo resourceName="OA-VerifyToken" version="SHA-512:fd9aae614a6507a2e45a813adbffacca59ff5edf6f1e4fa2bf67aae0316614537c31f296cf9e9855208e0c630e3826853412c5e555109fb6ae919c9b4db3c45a"/>
+        <VersionInfo resourceName="SC-GetAccessToken" version="SHA-512:c3677bda3f50175a84cda348a5c801e347c3c98eb7b0ee7c2f57c3f6ce552e4fdc8967988b84e4c7996cfd9e5d4b12d790cfbe53ff0b61284f42e206a363b440"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:57576a22f9bd9190282a743373b66c3f2408ec9f45a2d34b1315b50ee1c4956ca6182921c196a1cbdc8b7fc29705d0ae39342454b9876c54499ce5e8665c4cc1"/>
+    </ProxyEndpoints>
+    <Resources/>
+    <SharedFlows/>
+    <TargetEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:e378d27362bf19aa3ed2fdb3f65865e9a3ddd750fb0bef3f223abfc06f2fe2ec9d74657d6108a377a0313c8b67918091c9e05aa9f84afbfb3642082694994d40"/>
+    </TargetEndpoints>
+</Manifest>

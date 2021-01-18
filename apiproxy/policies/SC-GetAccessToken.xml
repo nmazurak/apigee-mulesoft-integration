@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ServiceCallout async="false" continueOnError="false" enabled="true" name="SC-GetAccessToken">
+    <DisplayName>SC-GetAccessToken</DisplayName>
+    <Properties/>
+    <Request>
+        <Set>
+            <Headers>
+                <Header name="Authorization">{private.auth_key}</Header>
+                <Header name="Content-Type">application/json</Header>
+            </Headers>
+        </Set>
+    </Request>
+    <Response>calloutResponse</Response>
+    <HTTPTargetConnection>
+        <Properties/>
+        <URL>http://amaz2-eval-test.apigee.net/oauth/accesstoken</URL>
+    </HTTPTargetConnection>
+</ServiceCallout>

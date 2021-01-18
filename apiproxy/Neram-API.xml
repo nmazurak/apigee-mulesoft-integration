@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="Neram-API">
+    <Basepaths>/neram-api</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1603708625332</CreatedAt>
+    <CreatedBy>amaz2@softserveinc.com</CreatedBy>
+    <Description>OpenAPI Specification for Neram API (Mulesoft demo project).</Description>
+    <DisplayName>Neram-API</DisplayName>
+    <LastModifiedAt>1610967818997</LastModifiedAt>
+    <LastModifiedBy>amaz2@softserveinc.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:98e7b33c4efbf90ebb02f2a5a277344a3f36bedf53aedd03d6f16a5cd2a65ba8891242c46eefcbac10b7cecc50edc5af1568a9553037a46de5604fbc7cb212ed:eu-west-1</ManifestVersion>
+    <Policies>
+        <Policy>EV-extractToken</Policy>
+        <Policy>KVM-extractCreds</Policy>
+        <Policy>OA-VerifyToken</Policy>
+        <Policy>SC-GetAccessToken</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>
